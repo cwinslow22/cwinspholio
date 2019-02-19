@@ -5,6 +5,17 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
+const contactTitle = {
+  margin: '0 auto',
+  marginBottom: '60px',
+}
+
+const contactItems = {
+  display: 'flex',
+  justifyContent: 'space-evenly',
+  marginBottom: '30px',
+}
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -115,7 +126,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 style={contactTitle} className="major">
+            Contact
+          </h2>
           {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -134,7 +147,7 @@ class Main extends React.Component {
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form> */}
-          <ul className="icons">
+          <ul style={contactItems} className="icons">
             {/* <li>
               <a href="#" className="icon fa-twitter">
                 <span className="label">Twitter</span>
