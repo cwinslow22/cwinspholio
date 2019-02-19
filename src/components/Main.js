@@ -141,7 +141,10 @@ class Main extends React.Component {
               </a>
             </li> */}
             <li>
-              <a href="#" className="icon fa-envelope">
+              <a
+                href="mailto:cwinslow22@yahoo.com?Subject=Portfolio"
+                className="icon fa-envelope"
+              >
                 <span className="label">email</span>
               </a>
             </li>
