@@ -16,7 +16,7 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        <li>
+        {/* <li>
           <a
             href="javascript:;"
             onClick={() => {
@@ -25,15 +25,15 @@ const Header = props => (
           >
             Intro
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('projects')
             }}
           >
-            Work
+            Projects
           </a>
         </li>
         <li>

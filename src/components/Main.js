@@ -33,7 +33,7 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
-        <article
+        {/* <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -65,16 +65,16 @@ class Main extends React.Component {
             vehicula.
           </p>
           {close}
-        </article>
+        </article> */}
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
