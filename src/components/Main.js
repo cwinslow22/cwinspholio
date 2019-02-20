@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import propPic from '../images/propertEAZY.png'
+// import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 const contactTitle = {
@@ -76,23 +76,35 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={propPic} alt="" />
           </span>
+          <a
+            href="https://properteazy.netlify.com/"
+            style={{ textDecorationColor: 'blue' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>PropertyEAZY</p>
+          </a>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Property management app that makes managing a property as pain free
+            as possible. Tenants can make rent payments and maintenance
+            requests, while owners are able to add properties, update work
+            orders and manage tenants.
           </p>
+          <h4>Technology</h4>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            React, Material UI, styled-components, Node, Express, PostgreSQL,
+            Stripe Connect
           </p>
+          <a
+            href="https://github.com/Lambda-School-Labs/labs9-property-management"
+            style={{ textDecoration: 'none' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>GitHub</p>
+          </a>
           {close}
         </article>
 
