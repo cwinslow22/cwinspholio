@@ -3,11 +3,16 @@ import PropTypes from 'prop-types'
 
 import propPic from '../images/propertEAZY2.png'
 import notePic from '../images/notesApp.png'
-import pic03 from '../images/pic03.jpg'
+import profile from '../images/profile.jpg'
 
 const contactTitle = {
   margin: '0 auto',
   marginBottom: '60px',
+}
+
+const appTitle = {
+  textAlign: 'center',
+  fontSize: '1.5rem',
 }
 
 const contactItems = {
@@ -75,17 +80,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={propPic} alt="" />
-          </span>
           <a
             href="https://properteazy.netlify.com/"
             style={{ textDecorationColor: 'blue' }}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>PropertyEAZY</p>
+            <p style={appTitle}>PropertyEAZY</p>
           </a>
+          <span className="image main">
+            <img src={propPic} alt="screenshot of app" />
+          </span>
+
           <p>
             Property management app that makes managing a property as pain free
             as possible. Tenants can make rent payments and maintenance
@@ -105,17 +111,18 @@ class Main extends React.Component {
           >
             <p>GitHub</p>
           </a>
-          <span className="image main">
-            <img src={notePic} alt="" />
-          </span>
           <a
             href="https://cwinslownotes.netlify.com/"
-            style={{ textDecoration: 'underline' }}
+            style={{ textDecoration: 'red' }}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>Lambda Notes</p>
+            <p style={appTitle}>Lambda Notes</p>
           </a>
+          <span className="image main">
+            <img src={notePic} alt="screenshot of app" />
+          </span>
+
           <p>
             A simple note taking app with edit, delete and search functionality.
           </p>
@@ -141,7 +148,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={profile} alt="profile picture" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
