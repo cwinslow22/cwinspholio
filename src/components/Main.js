@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import propPic from '../images/propertEAZY.png'
-// import pic02 from '../images/pic02.jpg'
+import propPic from '../images/propertEAZY2.png'
+import notePic from '../images/notesApp.png'
 import pic03 from '../images/pic03.jpg'
 
 const contactTitle = {
@@ -94,12 +94,36 @@ class Main extends React.Component {
           </p>
           <h4>Technology</h4>
           <p>
-            React, Material UI, styled-components, Node, Express, PostgreSQL,
-            Stripe Connect
+            React | Material UI | styled-components | Node | Express |
+            PostgreSQL | Stripe Connect
           </p>
           <a
             href="https://github.com/Lambda-School-Labs/labs9-property-management"
             style={{ textDecoration: 'none' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>GitHub</p>
+          </a>
+          <span className="image main">
+            <img src={notePic} alt="" />
+          </span>
+          <a
+            href="https://cwinslownotes.netlify.com/"
+            style={{ textDecoration: 'underline' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>Lambda Notes</p>
+          </a>
+          <p>
+            A simple note taking app with edit, delete and search functionality.
+          </p>
+          <h4>Technology</h4>
+          <p>React | Node | Express | PostgreSQL</p>
+          <a
+            href="https://github.com/cwinslow22/front-end-project-week"
+            // style={{ textDecoration: 'none' }}
             target="_blank"
             rel="noopener noreferrer"
           >
