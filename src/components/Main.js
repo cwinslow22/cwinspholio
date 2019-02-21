@@ -86,7 +86,7 @@ class Main extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p style={appTitle}>PropertyEAZY</p>
+            <p style={appTitle}>PropertEAZY</p>
           </a>
           <span className="image main">
             <img src={propPic} alt="screenshot of app" />
@@ -151,13 +151,11 @@ class Main extends React.Component {
             <img src={profile} alt="profile picture" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Greetings. I'm Charlie and a recent graduate from Lambda School's
+            Full Stack Web Development program. In my not too distant past, I
+            was a successful trader where I honed my problem solving skills in
+            the Chicago bond market. I'm excited to continue building things
+            while bringing my unique skills and experience to the table.
           </p>
           {close}
         </article>
@@ -172,6 +170,10 @@ class Main extends React.Component {
           <h2 style={contactTitle} className="major">
             Contact
           </h2>
+          <p>
+            Looking for my resume? Just drop me an email at the link below and
+            I'd love to send you a fresh copy.
+          </p>
           {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
