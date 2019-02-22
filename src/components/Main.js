@@ -148,7 +148,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={profile} alt="profile picture" />
+            <img src={profile} alt="" />
           </span>
           <p>
             Greetings, thanks for stopping by. I'm Charlie and a recent graduate
