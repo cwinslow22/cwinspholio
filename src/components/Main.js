@@ -151,11 +151,12 @@ class Main extends React.Component {
             <img src={profile} alt="profile picture" />
           </span>
           <p>
-            Greetings. I'm Charlie and a recent graduate from Lambda School's
-            Full Stack Web Development program. In my not too distant past, I
-            was a successful trader where I honed my problem solving skills in
-            the Chicago bond market. I'm excited to continue building things
-            while bringing my unique skills and experience to the table.
+            Greetings, thanks for stopping by. I'm Charlie and a recent graduate
+            from Lambda School's Full Stack Web Development program. In my not
+            too distant past, I was a successful trader where I honed my problem
+            solving skills in the Chicago bond market. I'm excited to continue
+            building things while integrating my unique skills and experience
+            into my new software career.
           </p>
           {close}
         </article>
