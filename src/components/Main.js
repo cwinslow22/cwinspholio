@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import propPic from '../images/propertEAZY2.png'
 import notePic from '../images/notesApp.png'
 import profile from '../images/profile.jpg'
+import contact from '../images/contact.jpg'
 
 const contactTitle = {
   margin: '0 auto',
@@ -136,6 +137,36 @@ class Main extends React.Component {
           >
             <p>GitHub</p>
           </a>
+          <ul style={contactItems} className="icons">
+            <li>
+              <a
+                href="mailto:cwinslow22@yahoo.com?Subject=Portfolio"
+                className="icon fa-envelope"
+              >
+                <span className="label">email</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/cwinslow/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon fa-linkedin"
+              >
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/cwinslow22"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
           {close}
         </article>
 
@@ -158,6 +189,36 @@ class Main extends React.Component {
             building things while integrating my unique skills and experience
             into my new software career.
           </p>
+          <ul style={contactItems} className="icons">
+            <li>
+              <a
+                href="mailto:cwinslow22@yahoo.com?Subject=Portfolio"
+                className="icon fa-envelope"
+              >
+                <span className="label">email</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/cwinslow/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon fa-linkedin"
+              >
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/cwinslow22"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
           {close}
         </article>
 
@@ -171,6 +232,9 @@ class Main extends React.Component {
           <h2 style={contactTitle} className="major">
             Contact
           </h2>
+          {/* <span className="image main">
+            <img src={contact} alt="" />
+          </span> */}
           <p>
             Looking for my resume? Just drop me an email at the link below and
             I'd love to send you a fresh copy.
@@ -194,11 +258,6 @@ class Main extends React.Component {
             </ul>
           </form> */}
           <ul style={contactItems} className="icons">
-            {/* <li>
-              <a href="#" className="icon fa-twitter">
-                <span className="label">Twitter</span>
-              </a>
-            </li> */}
             <li>
               <a
                 href="mailto:cwinslow22@yahoo.com?Subject=Portfolio"
