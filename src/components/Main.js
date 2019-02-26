@@ -13,7 +13,7 @@ const contactTitle = {
 
 const appTitle = {
   textAlign: 'center',
-  fontSize: '1.5rem',
+  fontSize: '1.9rem',
 }
 
 const contactItems = {
@@ -83,16 +83,22 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
           <a
             href="https://properteazy.netlify.com/"
-            style={{ textDecorationColor: 'blue' }}
+            style={{ textDecoration: 'none' }}
             target="_blank"
             rel="noopener noreferrer"
           >
             <p style={appTitle}>PropertEAZY</p>
           </a>
-          <span className="image main">
-            <img src={propPic} alt="screenshot of app" />
-          </span>
-
+          <a
+            href="https://properteazy.netlify.com/"
+            style={{ textDecoration: 'none' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="image main">
+              <img src={propPic} alt="screenshot of app" />
+            </span>
+          </a>
           <p>
             Property management app that makes managing a property as pain free
             as possible. Tenants can make rent payments and maintenance
@@ -104,39 +110,93 @@ class Main extends React.Component {
             React | Material UI | styled-components | Node | Express |
             PostgreSQL | Stripe Connect
           </p>
-          <a
+          {/* <a
             href="https://github.com/Lambda-School-Labs/labs9-property-management"
             style={{ textDecoration: 'none' }}
             target="_blank"
             rel="noopener noreferrer"
           >
             <p>GitHub</p>
-          </a>
+          </a> */}
+          <button
+            type="button"
+            class="btn btn-secondary"
+            style={{ marginRight: '10px' }}
+          >
+            <a
+              href="https://github.com/Lambda-School-Labs/labs9-property-management"
+              style={{ textDecoration: 'none' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>GitHub</p>
+            </a>
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            style={{ marginBottom: '50px' }}
+          >
+            <a
+              href="https://properteazy.netlify.com/"
+              style={{ textDecoration: 'none' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>Website</p>
+            </a>
+          </button>
           <a
             href="https://cwinslownotes.netlify.com/"
-            style={{ textDecoration: 'red' }}
+            style={{ textDecoration: 'none' }}
             target="_blank"
             rel="noopener noreferrer"
           >
             <p style={appTitle}>Lambda Notes</p>
           </a>
-          <span className="image main">
-            <img src={notePic} alt="screenshot of app" />
-          </span>
-
+          <a
+            href="https://cwinslownotes.netlify.com/"
+            style={{ textDecoration: 'none' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="image main">
+              <img src={notePic} alt="screenshot of app" />
+            </span>
+          </a>
           <p>
             A simple note taking app with edit, delete and search functionality.
           </p>
           <h4>Technology</h4>
           <p>React | Node | Express | PostgreSQL</p>
-          <a
-            href="https://github.com/cwinslow22/front-end-project-week"
-            // style={{ textDecoration: 'none' }}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            type="button"
+            class="btn btn-secondary"
+            style={{ marginRight: '10px' }}
           >
-            <p>GitHub</p>
-          </a>
+            <a
+              href="https://github.com/cwinslow22/front-end-project-week"
+              style={{ textDecoration: 'none' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>GitHub</p>
+            </a>
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            style={{ marginBottom: '50px' }}
+          >
+            <a
+              href="https://cwinslownotes.netlify.com/"
+              style={{ textDecoration: 'none' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>Website</p>
+            </a>
+          </button>
           <ul style={contactItems} className="icons">
             <li>
               <a
