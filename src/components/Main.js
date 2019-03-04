@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import propPic from '../images/propertEAZY2.png'
 import notePic from '../images/notesApp.png'
 import profile from '../images/profile.jpg'
-import contact from '../images/contact.jpg'
+import game from '../images/gameOfLife.png'
 
 const contactTitle = {
   margin: '0 auto',
@@ -50,26 +50,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+    
           {close}
         </article> */}
 
@@ -190,6 +171,58 @@ class Main extends React.Component {
           >
             <a
               href="https://cwinslownotes.netlify.com/"
+              style={{ textDecoration: 'none' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>Website</p>
+            </a>
+          </button>
+          <a
+            href="https://cwinslowgameoflife.netlify.com/"
+            style={{ textDecoration: 'none' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p style={appTitle}>Game of Life</p>
+          </a>
+          <a
+            href="https://cwinslowgameoflife.netlify.com/"
+            style={{ textDecoration: 'none' }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="image main">
+              <img src={game} alt="screenshot of app" />
+            </span>
+          </a>
+          <p>
+            A React app based on John Conway's Game of Life, one of the earliest
+            examples of cellular automaton.
+          </p>
+          <h4>Technology</h4>
+          <p>React | Canvas</p>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            style={{ marginRight: '10px' }}
+          >
+            <a
+              href="https://github.com/cwinslow22/Conways-Life"
+              style={{ textDecoration: 'none' }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>GitHub</p>
+            </a>
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary"
+            style={{ marginBottom: '50px' }}
+          >
+            <a
+              href="https://cwinslowgameoflife.netlify.com/"
               style={{ textDecoration: 'none' }}
               target="_blank"
               rel="noopener noreferrer"
