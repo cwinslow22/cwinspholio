@@ -278,9 +278,16 @@ class Main extends React.Component {
             Greetings, thanks for stopping by. I'm Charlie and a recent graduate
             from Lambda School's Full Stack Web Development program. In my not
             too distant past, I was a successful trader where I honed my problem
-            solving skills in the Chicago bond market. I'm excited to continue
-            building things while integrating my unique skills and experience
-            into my new software career.
+            solving skills in the Chicago bond market. More recently, I've been
+            helping clients build things over at{' '}
+            <a
+              href="https://windsprint.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              // className="icon fa-linkedin"
+            >
+              WindSprint.
+            </a>
           </p>
           <ul style={contactItems} className="icons">
             <li>
